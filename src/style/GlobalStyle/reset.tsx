@@ -29,15 +29,8 @@ const Reset = createGlobalStyle`
           height: 100%;
         }
         #__next {
-          display: flex;
-          flex-direction: column;
-        }
-        #__next > * {
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: stretch;
+          display: grid;
+          grid-template-rows: 15% auto 10%;
         }
 `;
 
