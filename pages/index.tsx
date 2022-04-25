@@ -1,9 +1,10 @@
 import React from "react";
+import Header from "../src/patterns/header";
 
 export default function Home() {
   return (
     <>
-      <header style={{backgroundColor: "green"}} />
+      <Header />
       <main style={{backgroundColor: "red"}} />
       <footer style={{backgroundColor: "blue"}} />
     </>
