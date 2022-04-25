@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../src/patterns/footer";
 import Header from "../src/patterns/header";
 
 export default function Home() {
@@ -6,7 +7,7 @@ export default function Home() {
     <>
       <Header />
       <main style={{backgroundColor: "red"}} />
-      <footer style={{backgroundColor: "blue"}} />
+      <Footer />
     </>
   );
 }
