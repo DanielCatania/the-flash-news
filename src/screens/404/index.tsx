@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+import Link from "../../components/Link";
 import Head from "../../patterns/head";
 import Header from "../../patterns/header";
 import Footer from "../../patterns/footer";
@@ -18,9 +18,7 @@ export default function page404() {
           <Subtitle>
             Ops!! Parece que você foi rápido demais e acabou se perdendo!
           </Subtitle>
-          <Link href="/">
-            <a href="/">Voltar ao início</a>
-          </Link>
+          <Link href="/">Voltar ao início</Link>
         </div>
       </Main>
       <Footer />
