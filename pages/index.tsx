@@ -1,13 +1,3 @@
-import React from "react";
-import Footer from "../src/patterns/footer";
-import Header from "../src/patterns/header";
+import Home from "../src/screens/home";
 
-export default function Home() {
-  return (
-    <>
-      <Header />
-      <main style={{backgroundColor: "red"}} />
-      <Footer />
-    </>
-  );
-}
+export default Home;
