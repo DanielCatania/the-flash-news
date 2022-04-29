@@ -9,17 +9,7 @@ const Footer = styled.footer`
   font-size: ${({theme}) => theme.fonts.fs.size};
   font-weight: ${({theme}) => theme.fonts.fs.weight};
 
-  /* posicioanmento */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
   ul {
-    /* posicioanmento */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
     /* estilo */
     list-style: none;
 
