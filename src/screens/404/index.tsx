@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import Link from "../../components/Link";
+import Link from "../../components/foundation/Link";
 import Head from "../../patterns/head";
 import Header from "../../patterns/header";
 import Footer from "../../patterns/footer";
-import Title from "../../components/Title";
-import Subtitle from "../../components/Subtitle";
-import Centralize from "../../components/Centralize";
+import Title from "../../components/foundation/Title";
+import Subtitle from "../../components/foundation/Subtitle";
+import Centralize from "../../components/foundation/Centralize";
 
 const Contents = styled.div`
   /* posicionamento */

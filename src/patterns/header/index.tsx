@@ -1,7 +1,7 @@
 import React from "react";
 import BoxHeader from "./Header";
-import Title from "../../components/Title";
-import Centralize from "../../components/Centralize";
+import Title from "../../components/foundation/Title";
+import Centralize from "../../components/foundation/Centralize";
 
 export default function Header() {
   return (

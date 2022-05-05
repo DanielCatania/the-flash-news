@@ -1,7 +1,7 @@
 import React from "react";
 import BoxFooter from "./Footer";
-import Centralize from "../../components/Centralize";
-import QueuedList from "../../components/QueuedList";
+import Centralize from "../../components/foundation/Centralize";
+import QueuedList from "../../components/foundation/QueuedList";
 
 export default function Footer() {
   return (
