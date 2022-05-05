@@ -6,7 +6,11 @@ import Footer from "../../patterns/footer";
 export default function Home() {
   return (
     <>
-      <Head pageTitle="Home" />
+      <Head
+        pageTitle={{
+          yes: false,
+        }}
+      />
       <Header />
       <main style={{backgroundColor: "red"}} />
       <Footer />

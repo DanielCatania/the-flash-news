@@ -19,7 +19,12 @@ const Contents = styled.div`
 export default function page404() {
   return (
     <>
-      <Head pageTitle="404" />
+      <Head
+        pageTitle={{
+          yes: true,
+          title: "404",
+        }}
+      />
       <Header />
       <main>
         <Centralize>
