@@ -7,6 +7,12 @@ const Subtitle = styled.h2`
   /* fonte */
   font-size: ${({theme}) => theme.fonts.fh3.size};
   font-weight: ${({theme}) => theme.fonts.fh3.weight};
+
+  @media screen and (max-width: 768px) {
+    /* fonte */
+    font-size: ${({theme}) => theme.fonts.fh5.size};
+    font-weight: ${({theme}) => theme.fonts.fh5.weight};
+  }
 `;
 
 export default Subtitle;
