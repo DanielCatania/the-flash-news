@@ -9,12 +9,15 @@ const Footer = styled.footer`
   font-size: ${({theme}) => theme.fonts.fs.size};
   font-weight: ${({theme}) => theme.fonts.fs.weight};
 
+  /* espaçamento */
+  padding: 2%;
+
   ul {
     /* estilo */
     list-style: none;
 
     /* tamanho */
-    width: 30%;
+    width: 40%;
   }
 
   ul li a {

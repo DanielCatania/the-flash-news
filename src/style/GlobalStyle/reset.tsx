@@ -28,10 +28,6 @@ const Reset = createGlobalStyle`
         #__next {
           height: 100%;
         }
-        #__next {
-          display: grid;
-          grid-template-rows: 15% auto 10%;
-        }
 `;
 
 export default Reset;

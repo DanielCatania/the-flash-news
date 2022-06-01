@@ -6,6 +6,10 @@ const Style = createGlobalStyle`
       padding: 0;
       margin: 0;
     }
+    #__next {
+        display: grid;
+        grid-template-rows: 15% auto min-content;
+    }
     a {
       text-decoration: none;
     }
