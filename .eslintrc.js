@@ -22,6 +22,7 @@ module.exports = {
     "@typescript-eslint",
   ],
   rules: {
+    "camelcase": ["off", {ignoreGlobals: true}],
     "react/jsx-filename-extension" : [1, { "extensions" : [ ".tsx"]}],
     "quotes": ["error", "double"],
     "react/jsx-props-no-spreading": "off",

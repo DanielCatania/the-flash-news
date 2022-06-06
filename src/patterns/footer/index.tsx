@@ -31,6 +31,11 @@ export default function Footer() {
               Notícias by NewsApi
             </a>
           </li>
+          <li>
+            <a href="https://hgbrasil.com/" target="_blank" rel="noreferrer">
+              Clima by HG Brasil
+            </a>
+          </li>
         </QueuedList>
       </Centralize>
     </BoxFooter>
