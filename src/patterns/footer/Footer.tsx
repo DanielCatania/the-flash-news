@@ -17,7 +17,7 @@ const Footer = styled.footer`
     list-style: none;
 
     /* tamanho */
-    width: 40%;
+    width: 50%;
   }
 
   ul li a {
