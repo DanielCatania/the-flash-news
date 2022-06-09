@@ -7,6 +7,7 @@ import Link from "../../foundation/Link";
 import Text from "../../foundation/Text";
 import Contents from "./ContentsNews";
 import Card from "../../foundation/Card";
+import Date from "../../foundation/Date";
 
 export default function News(props: news) {
   const {author, description, publishedAt, source, title, url, urlToImage} =
@@ -23,7 +24,7 @@ export default function News(props: news) {
                 <Text>{description}</Text>
                 <QueuedList>
                   <li>
-                    <Text>{publishedAt}</Text>
+                    <Date date={publishedAt} />
                   </li>
                   <li>
                     <Text>{author}</Text>
