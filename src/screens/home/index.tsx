@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import Style from "./style";
 import Head from "../../patterns/head";
 import Header from "../../patterns/header";
 import Footer from "../../patterns/footer";
@@ -14,12 +14,6 @@ interface propsHome {
   news: Array<typeNews>;
 }
 
-const Contents = styled.div`
-  div {
-    height: auto;
-  }
-`;
-
 export default function Home(props: propsHome) {
   const {climate, news} = props;
   return (
@@ -31,14 +25,14 @@ export default function Home(props: propsHome) {
       />
       <Header />
       <main>
-        <Contents>
+        <Style>
           <Centralize>
             <Emphasis news={news[0]} climate={climate} />
           </Centralize>
           <Centralize>
             <GridNews news={news.slice(1, news.length)} />
           </Centralize>
-        </Contents>
+        </Style>
       </main>
       <Footer />
     </>

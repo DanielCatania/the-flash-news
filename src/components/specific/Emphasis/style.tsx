@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
-const Contents = styled.section`
+const Style = styled.section`
+  /* tamanho */
   width: 85%;
+
+  /* posicionamento */
   display: grid;
   grid-template-columns: 60% 40%;
 
@@ -11,4 +14,4 @@ const Contents = styled.section`
   }
 `;
 
-export default Contents;
+export default Style;

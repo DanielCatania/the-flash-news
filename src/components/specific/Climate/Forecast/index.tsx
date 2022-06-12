@@ -3,13 +3,13 @@ import QueuedList from "../../../foundation/QueuedList";
 import Centralize from "../../../foundation/Centralize";
 import Text from "../../../foundation/Text";
 import forecast from "../../../../types/climate/forecast";
-import Contents from "./ContentsForecast";
+import Style from "./style";
 import ImageClimate from "../ImageClimate";
 
 export default function Forecast(props: forecast) {
   const {date, weekday, max, min, description, condition} = props;
   return (
-    <Contents>
+    <Style>
       <Centralize>
         <ImageClimate status={condition} />
       </Centralize>
@@ -32,6 +32,6 @@ export default function Forecast(props: forecast) {
           <Text>{date}</Text>
         </li>
       </QueuedList>
-    </Contents>
+    </Style>
   );
 }

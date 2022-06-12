@@ -1,11 +1,11 @@
 import React from "react";
-import BoxFooter from "./Footer";
+import Style from "./style";
 import Centralize from "../../components/foundation/Centralize";
 import QueuedList from "../../components/foundation/QueuedList";
 
 export default function Footer() {
   return (
-    <BoxFooter>
+    <Style>
       <Centralize>
         <QueuedList>
           <li>
@@ -38,6 +38,6 @@ export default function Footer() {
           </li>
         </QueuedList>
       </Centralize>
-    </BoxFooter>
+    </Style>
   );
 }

@@ -5,7 +5,7 @@ import Centralize from "../../foundation/Centralize";
 import QueuedList from "../../foundation/QueuedList";
 import Link from "../../foundation/Link";
 import Text from "../../foundation/Text";
-import Contents from "./ContentsNews";
+import Style from "./style";
 import Card from "../../foundation/Card";
 import Date from "../../foundation/Date";
 
@@ -15,7 +15,7 @@ export default function News(props: news) {
   return (
     <div>
       <Link href={url}>
-        <Contents>
+        <Style>
           <Card>
             <img src={urlToImage} alt={title} />
             <Centralize>
@@ -36,7 +36,7 @@ export default function News(props: news) {
               </div>
             </Centralize>
           </Card>
-        </Contents>
+        </Style>
       </Link>
     </div>
   );

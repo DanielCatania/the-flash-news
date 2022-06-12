@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Header = styled.header`
+const Style = styled.header`
   /* cor */
   background-color: ${({theme}) => theme.colors.primary.c300};
 
@@ -10,4 +10,4 @@ const Header = styled.header`
   }
 `;
 
-export default Header;
+export default Style;
