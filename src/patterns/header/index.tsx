@@ -1,15 +1,15 @@
 import React from "react";
-import BoxHeader from "./Header";
+import Style from "./style";
 import Title from "../../components/foundation/Title";
 import Centralize from "../../components/foundation/Centralize";
 
 export default function Header() {
   return (
-    <BoxHeader>
+    <Style>
       <Centralize>
         <img src="/img/flash.svg" alt="Logo do The Flash News" />
         <Title>The Flash News</Title>
       </Centralize>
-    </BoxHeader>
+    </Style>
   );
 }

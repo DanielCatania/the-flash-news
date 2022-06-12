@@ -4,7 +4,7 @@ import Text from "../../foundation/Text";
 import QueuedList from "../../foundation/QueuedList";
 import Centralize from "../../foundation/Centralize";
 import climate from "../../../types/climate";
-import Contents from "./ContentsClimate";
+import Style from "./style";
 import Card from "../../foundation/Card";
 import Forecast from "./Forecast";
 import ImageClimate from "./ImageClimate";
@@ -22,7 +22,7 @@ export default function Climate(props: climate) {
   } = props;
   return (
     <div>
-      <Contents>
+      <Style>
         <Card>
           <Centralize>
             <ImageClimate status={condition_slug} />
@@ -59,7 +59,7 @@ export default function Climate(props: climate) {
             ))}
           </QueuedList>
         </Card>
-      </Contents>
+      </Style>
     </div>
   );
 }

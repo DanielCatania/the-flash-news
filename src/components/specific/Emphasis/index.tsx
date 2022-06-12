@@ -1,5 +1,5 @@
 import React from "react";
-import Contents from "./ContentsEmphasis";
+import Style from "./style";
 import News from "../News";
 import Climate from "../Climate";
 import typeNews from "../../../types/news";
@@ -13,9 +13,9 @@ interface propsEmphasis {
 export default function Emphasis(props: propsEmphasis) {
   const {news, climate} = props;
   return (
-    <Contents>
+    <Style>
       <News {...news} />
       <Climate {...climate} />
-    </Contents>
+    </Style>
   );
 }

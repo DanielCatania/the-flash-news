@@ -4,7 +4,7 @@ import Subtitle from "../../foundation/Subtitle";
 import Button from "../../foundation/Button";
 import News from "../News";
 import typeNews from "../../../types/news";
-import Contents from "./ContentsGridNews";
+import Style from "./style";
 
 interface propsGridNews {
   news: Array<typeNews>;
@@ -14,7 +14,7 @@ export default function GridNews(props: propsGridNews) {
   const {news} = props;
   const [viewMore, setViewMore] = React.useState(false);
   return (
-    <Contents>
+    <Style>
       <main>
         {viewMore
           ? news.map((item) => <News key={item.title} {...item} />)
@@ -27,6 +27,6 @@ export default function GridNews(props: propsGridNews) {
           </Button>
         </Centralize>
       )}
-    </Contents>
+    </Style>
   );
 }

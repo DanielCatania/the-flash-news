@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Footer = styled.footer`
+const Style = styled.footer`
   /* cor */
   background-color: ${({theme}) => theme.colors.primary.c300};
   color: ${({theme}) => theme.colors.primary.c100};
@@ -33,4 +33,4 @@ const Footer = styled.footer`
   }
 `;
 
-export default Footer;
+export default Style;
