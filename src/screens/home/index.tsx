@@ -15,7 +15,11 @@ interface propsHome {
 }
 
 export default function Home(props: propsHome) {
-  const {climate, news} = props;
+  const {climate} = props;
+  let {news} = props;
+  news = news.filter(
+    (item) => item.description != null || item.urlToImage != null
+  );
   return (
     <>
       <Head
