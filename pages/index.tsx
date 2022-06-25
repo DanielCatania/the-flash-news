@@ -9,7 +9,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
     await fetch(`https://api.hgbrasil.com/weather?key=${apiKeyClimate}`)
   ).json();
   const news = await (
-    await fetch(`https://newsapi.org/v2/everything?q=keyword&apiKey=${apiKeyNews}
+    await fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKeyNews}
     `)
   ).json();
 
