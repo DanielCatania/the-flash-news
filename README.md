@@ -4,7 +4,7 @@
 Portal de notícias gerado a partir do consumo da [NewsAPI](https://newsapi.org/) e da [HG Brasil](https://hgbrasil.com/).
 
 ## 🔗Acesse o site
-LINK
+https://the-flash-news.vercel.app/
 
 ## 🧰Ferramentas
 
